@@ -1,0 +1,13 @@
+ let finalURL = 
+'https://chart.googleapis.com/chart?cht=qr&chl=' + 
+
+          htmlEncode("Adult:"+$('#adult').val()+"                                      "+
+          "Children(5 to 12 years):"+$('#child').val()+"                                      "
+          +"Children(below 5yrs):"+$('#c5').val()+"                                           "
+          +"Camera:"+$('#camera').val()+"                                                        "
+          +"Battery Vehicle:"+$('#veh').val()+"                                      "
+          +$('#content').val()) +
+
+          '&chs=160x160&chld=L|0' 
+
+  
